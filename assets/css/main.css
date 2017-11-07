@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   font-family: 'Arvo', serif;
 }
@@ -21,14 +21,14 @@ header {
 
 #contenedor {
   background-image: url(../img/img7.jpg);
-  background-size: cover;
+  /*background-size: cover;*/
   width: 100%;
   height: auto;
 }
 
 #section-primary {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 129px;
   /*border: 2px solid green;*/
   width: 80%;
   height: auto;
@@ -46,6 +46,7 @@ header {
   background-color: #FFF;
   padding-bottom: 30px;
   border-radius: 0.5em;
+
 }
 
 .section-1 h4, h6, a {
@@ -86,10 +87,22 @@ color: #0D83DD;
   /*border: 2px solid blue;*/
   background-color: #FFF;
   border-radius: 0.5em;
+  padding-top: 17px;
 }
 
 .section-2 h6 {
   font-size: 15px;
+}
+
+#count {
+  margin-left: 354px;
+  /*border: 1px solid green;*/
+  font-family: 'Arvo', serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00467C;
+  display: inline-block;
 }
 
 #post {
@@ -102,7 +115,7 @@ color: #0D83DD;
   color: #949CA3;
 }
 
-.tweet {
+#tweet {
   background-color: #0D83DD;
   color: #FFF;
   font-weight: bold;
@@ -111,4 +124,15 @@ color: #0D83DD;
   padding: 1em;
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+#comment div {
+  margin-top: 40px;
+  padding-top: 80px;
+  background-color: #FFF;
+  width: 100%;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 0.5em;
+  padding-left: 0;
 }
