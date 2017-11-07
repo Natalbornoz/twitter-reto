@@ -1,0 +1,114 @@
+*{
+  margin: 0px;
+  font-family: 'Arvo', serif;
+}
+
+.title {
+  letter-spacing: 3px;
+  padding-top: 40px;
+  font-size: 35px;
+  color: #FFF;
+}
+
+header {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #0D83DD;
+  padding-bottom: 100px;
+}
+
+#contenedor {
+  background-image: url(../img/img7.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+#section-primary {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*border: 2px solid green;*/
+  width: 80%;
+  height: auto;
+  margin: 0 auto; /* El margin en 0 es aplicado en el bottom y el top del contenedor.El auto se aplicad a left y rigth. */
+  overflow: hidden; /* No se para que sirve, pero Allyson dijo que siempre había que ponerlo */
+  clear: both;/* limpia los lados para que el contenido quede alineado */
+}
+
+.section-1 {
+  width: 48%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  /*border: 2px solid red;*/
+  background-color: #FFF;
+  padding-bottom: 30px;
+  border-radius: 0.5em;
+}
+
+.section-1 h4, h6, a {
+padding-left: 20px;
+padding-top: 20px;
+color: #0D83DD;
+}
+
+.section-1 h4 {
+  font-size: 30px;
+}
+
+
+.section-1 h6 {
+  font-size: 15px;
+}
+
+.section-1 a {
+  display: inline-block;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #00467C;
+}
+
+.hr {
+  margin left: 0;
+  border: 1px solid #E3E5E8;
+  padding-top: 15px;
+}
+
+.section-2 {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  float: right;
+  /*border: 2px solid blue;*/
+  background-color: #FFF;
+  border-radius: 0.5em;
+}
+
+.section-2 h6 {
+  font-size: 15px;
+}
+
+#post {
+  display: inline-block;
+  padding-top: 20px;
+  margin: 40px 23px;
+  width: 90%;
+  border: 1px solid #FFF;
+  border-bottom: 1px solid #949CA3;
+  color: #949CA3;
+}
+
+.tweet {
+  background-color: #0D83DD;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 0.5em;
+  border: none;
+  padding: 1em;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
