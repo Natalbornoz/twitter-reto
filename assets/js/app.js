@@ -33,20 +33,59 @@ function charactLimit(){
   var charMax = 140; //varianle para definir la cantidad maxima de caracteres
   var textarea = document.getElementById('post').value;//para llamar al area de texto
 
-  contador.innerHTML = charMax-textarea.length;
+    //INTENTO DE DESHABILITAR BOTON TWEET
+    // if (contador <= 0) {
+    //   button.disabled = true;
 
-  if(textarea.length > charMax) {
-    button.disabled = true;
-  }if (textarea.length < charMax){
-    button.disabled = false;
-  }
-}
+  contador.innerHTML = charMax-textarea.length;
+  // document.getElementById("myH2").style.color = "#ff0000";
+
+
+  //INTENTO DE CAMBIAR COLOR 
+  // if (contador.length > 120 && < 130)
+  //   contador ="green";
+  //
+  // else if (contador.length > 131 && < 140)
+  //     contador ="blue";
+  //
+  // else {
+  //   contador = "navy";
+  // }
+
 
 //-----------------------------------------
 
-function changeColor() {
+// Si pasa los 140 caracteres, deshabilitar el botón.
+// Si pasa los 120 caracteres, mostrar el contador con OTRO color.
+// Si pasa los 130 caracteres, mostrar el contador con OTRO color.
+// Si pasa los 140 caracteres, mostrar el contador en negativo.
 
+// function changeColor() {
+//
+//   var textarea = document.getElementById('post')
+//   var contador = document.getElementById('count').value;//declaro variable
+//   var charMax = 140;
 
+  // if (contador.length > 120 && < 130)
+  //   contador ="green";
+  //
+  // else if (contador.length > 131 && < 140)
+  //     contador ="blue";
+  //
+  // else {
+  //   contador = "navy";
+  // }
+
+		// if(caracteres >= 120 && caracteres < 130){
+		// 	conta.style.color = "green";
+		// }
+		// else if (caracteres >130) {
+		// 	conta.style.color = "red";
+		// }
+		// else{
+		// 	conta.style.color = "black";
+		// }
+    //
 
 }
 
